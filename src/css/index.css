@@ -1,0 +1,69 @@
+body {
+    padding: 10px;
+    font-family: "Roboto";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+input, textarea {
+    border: 0.5px solid black;
+    border-radius: 3.5px; 
+    box-sizing: border-box; 
+    resize: none;
+}
+
+
+button {
+    color: white;
+    background-color: #00A9FF;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.editor {
+    display: flexbox;
+    flex-direction: column;
+    border-radius: 10px;
+    outline: 2px solid #D8D9DA;
+    padding: 20px;
+    width: 40%;
+}
+
+.base-form {
+    outline: 2px solid #D8D9DA;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.base-form-wrapper {
+    padding: 5px;
+}
+
+.form-field {
+    padding: 3px;
+}
+
+.form-field > * {
+    display: inline;
+}
+
+.button-wrapper {
+    display: inline;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.close-button {
+    border-radius: 100%;
+    padding: 5px;
+    float: right;
+}
+
+.close-button:hover {
+    cursor: pointer;
+}
+
+.material-icons.help-symbol { font-size: 15px; }
